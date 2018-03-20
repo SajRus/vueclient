@@ -2,6 +2,14 @@
 
 > vue stream client
 
+##End Point Configuration
+
+setup the api proxy server URL and the image server URL inside /config/dev.env.js or /config/prod.env.js 
+
+IMAGE_SERVER_PATH: "'image server path'",
+API_BASE_URL: "'localhost'",
+API_BASE_PORT: 3003,
+
 ## Build Setup
 
 ``` bash
@@ -19,11 +27,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-##End Point Configuration
-
-setup the api proxy server URL and the image server URL inside /config/dev.env.js or /config/prod.env.js 
-
-IMAGE_SERVER_PATH: "'image server path'",
-API_BASE_URL: "'localhost'",
-API_BASE_PORT: 3003,
