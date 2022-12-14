@@ -16,7 +16,7 @@
     "stylus-loader": "^3.0.2",
     "underscore": "^1.8.3",
     "vue": "^2.5.2",
-    "vue-d3-barchart": "0.0.17",
+    "vue-d3-barchart": "0.0.28",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
